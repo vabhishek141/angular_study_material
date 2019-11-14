@@ -1,0 +1,21 @@
+
+
+1. sudo apt-get install nodejs
+
+node -v  //v12.7.0 
+
+2. sudo apt-get install npm
+
+npm -v  //6.10.0
+
+3. sudo npm install  -g @angular/cli
+ng --version //8.3.19
+
+4. sudo npm install  -g typescript
+
+tsc -v //3.7.2
+
+5. sudo npm install  -g nodemon
+
+nodemon -v //1.19.4
+
