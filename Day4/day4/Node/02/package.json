@@ -1,0 +1,12 @@
+{
+  "name": "sunbeamloggerbymahesh",
+  "version": "1.0.0",
+  "description": "This is my package exporting Logger Class, Blogger Class, SayHi Function and one Variable",
+  "main": "Logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["sunbeam", "Pune", "CDAC"],
+  "author": "Mahesh Panhale",
+  "license": "ISC"
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        var counter = 0;
+
+        function F1()
+        {
+            // window.setInterval(function ()
+            //                     {
+            //                         counter =  counter + 1;
+            //                         var mySpan =  document.getElementById("mySpan");
+            //                         mySpan.innerText = counter;
+            //                     },1000);
+
+            window.setInterval( ()=>
+                                {
+                                    counter =  counter + 1;
+                                    var mySpan =  document.getElementById("mySpan");
+                                    mySpan.innerText = counter;
+                                },1000);
+        }
+
+        
+
+
+        // function KeepCounting()
+        // {
+        //     counter =  counter + 1;
+        //     var mySpan =  document.getElementById("mySpan");
+        //     mySpan.innerText = counter;
+        // }
+
+        function F2()
+        {
+            window.alert("Hello! ")
+        }
+    </script>
+</head>
+<body>
+    <span id="mySpan"></span>
+    <br>
+    <input type="button" id="btn" value="Click Me" onclick="F1()">
+    <br>
+    <input type="button" id="btn1" value="SayHi" onclick="F2()">
+</body>
+</html>

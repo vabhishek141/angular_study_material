@@ -1,0 +1,7 @@
+{
+    "Port":9898,
+    "host":"localhost",
+    "Database":"classwork",
+    "User":"root",
+    "Password":"manager"
+}
